@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADC</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d03af0f0d5.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/Shagun. (2).png" alt="" class="logo">
+                <ul id="sidemenu">
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1><span>Smile</span> Confidently</h1>
+                <p>Your journey to exceptional dental <br> begins here</p>
+            </div>
+            <div class="header-button">
+                <a href="" class="btn btn2">Request Appointment</a>
+                <a href="" class="btn">Call (+973614686929)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------about--------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dentist_img12.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am Shagun Thakyal, a recent B.Tech graduate in Computer Science.
+                         As a tech enthusiast, I am eager to embark on my professional journey 
+                         and contribute to the dynamic field of technology. My academic foundation,
+                          coupled with a passion for innovation, positions me as a dedicated 
+                          and quick-learning team member.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App inteface</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Android/ios App</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="images/veneers.jpg" alt="">
+                    <h2>Veneers</h2>
+                    <!-- <p>Lorem ipsum </p>
+                    <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <img src="images/whitening.jpg" alt="">
+                    <h2>Glo Whitening</h2>
+                    <!-- <p>Lorem ipsum dolor </p>
+                    <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <img src="images/implant.jpg" alt="">
+                    <h2>Tooth Implant</h2>
+                    <!-- <p>Lorem ipsum dolor </p>
+                    <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <img src="images/removal1.jpg" alt="">
+                    <h2>Tooth Removal</h2>
+                    <!-- <p>Lorem ipsum dolor sit</p>
+                    <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <img src="images/braces1.jpg" alt="">
+                    <h2>Dental Braces</h2>
+                    <!-- <p>Lorem ipsum dolor sit</p>
+                    <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <img src="images/briges2.jpg" alt="">
+                    <h2>Dental Bridges</h2> <h3></h3>
+                    <!-- <p>Lorem ipsum dolor sit </p>
+                    <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- -------slogans-------- -->
+
+    <div id="slogans">
+        <div class="container">
+            <h3 class="sub-title sub1">  Dental Care, Reimagined </h3>
+            <div class="slogans-list">
+                <div>
+                    <img src="images/icons/comfortable.png" alt="">
+                    <h2>All-Around Comfort</h2>
+                    <p>“That wasn’t painful at all!” is one of our favorite things to hear. 
+                        We’ll make sure you feel completely comfortable with our virtually 
+                        painless injections and calming nitrous options.</p>
+                </div>
+
+                <div>
+                    <img src="images/icons/volunteer.png" alt="">
+                    <h2>Just Like Home</h2>
+                    <p>We’re a family dental office — and we mean that in more ways than one.
+                         Our friendly staff is committed to making you feel like part of our 
+                         family from day one.</p>
+                </div>
+
+                <div>
+                    <img src="images/icons/shining.png" alt="">
+                    <h2>Highest Quality Treatment
+                    </h2>
+                    <p>You deserve a smile that lasts forever. We stand behind our work by 
+                        providing the highest-quality treatments and a 3-year warranty.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- -----------contact-------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact-Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> ADC.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9541382025</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/shagun.thakyal"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/s_thakyal_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://in.linkedin.com/in/shagun-thakyal-a62504240"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/xoqgeopz" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea> 
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- --------location-------- -->
+    <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.600161384811!2d74.96698446794932!3d32.
+        510756793261635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391c1fe949076631%3A0xfd0dc7f71946429a!2s
+        ASHOKA%20DENTAL%20CLINIC!5e0!3m2!1sen!2sin!4v1707507984707!5m2!1sen!2sin" width="1375" height="400" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>  
+    </div>
+
+
+    <!-- ----------copyright--------- -->
+    <div class="copyright">
+        <p>Copyright @ ADC. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+          for(tablink of tablinks){
+             tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+     <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
