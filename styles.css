@@ -577,7 +577,7 @@ iframe{
         height: 100vh;
         background-image: url(images/frontImg.png);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 80%;
         background-position: bottom;
     }
 
@@ -589,11 +589,13 @@ iframe{
         font-size: 40px;
         margin-bottom: 20px;
         line-height: 48px;
+        text-align: center;
     }
 
     .header-text{
         margin-top: 0%;
         font-size: 16px;
+        text-align: center;
     }
 
     .header-text h1{
@@ -676,7 +678,7 @@ iframe{
         display: flex;
         flex-wrap: wrap;
         margin-top: 3vh;
-        margin-right: 10vh;
+        margin-right: 2vh;
     }
     .header-button .btn{
         margin: 1vh 1vh 1vh auto;
@@ -686,7 +688,7 @@ iframe{
         padding: 1vh 3vh;
         border-radius: 6px;
         text-decoration: none;
-        text-align: center;
+        /* text-align: center; */
         position: r;
         color: #fff;
         transition: background 0.5s;
