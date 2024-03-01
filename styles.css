@@ -45,8 +45,8 @@ background: radial-gradient(circle, rgba(0,240,242,1) 0%, rgba(24,21,77,1) 100%,
 
  /* 8 7 7*/
 
- background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(43,5,12,1) 65%);
+ /* background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(43,5,12,1) 65%); */
 
 /* 8 8 8*/
 /* background: rgb(33,25,81);
@@ -75,8 +75,8 @@ background: linear-gradient(90deg, rgba(113,141,189,0.9327380610447304) 9%, rgba
 background: linear-gradient(90deg, rgba(255,246,246,0.918732458803834) 0%, rgba(113,141,189,0.9327380610447304) 0%, rgba(81,163,203,1) 89%); */
 
 
-/* background: rgb(113,141,189);
-background: linear-gradient(90deg, rgba(113,141,189,0.9327380610447304) 0%, rgba(0,150,241,0.918732458803834) 48%, rgba(81,163,203,1) 89%); */
+background: rgb(113,141,189);
+background: linear-gradient(90deg, rgba(113,141,189,0.9327380610447304) 0%, rgba(0,150,241,0.918732458803834) 48%, rgba(81,163,203,1) 89%);
 
 
 
