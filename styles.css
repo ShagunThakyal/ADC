@@ -21,12 +21,12 @@ html{
 
 body{
     
-    5
+    
 /* background: rgb(112,2,255);
 background: radial-gradient(circle, rgba(112,2,255,1) 0%, rgba(0,244,255,1) 100%); */
 
 
-5
+
 /* background: rgb(242,74,0);
 background: radial-gradient(circle, rgba(242,74,0,1) 0%, rgba(112,2,255,1) 61%); */
 
@@ -45,8 +45,8 @@ background: radial-gradient(circle, rgba(0,240,242,1) 0%, rgba(24,21,77,1) 100%,
 
  /* 8 7 7*/
 
- /* background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(43,5,12,1) 65%); */
+ background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(43,5,12,1) 65%);
 
 /* 8 8 8*/
 /* background: rgb(33,25,81);
@@ -75,8 +75,8 @@ background: linear-gradient(90deg, rgba(113,141,189,0.9327380610447304) 9%, rgba
 background: linear-gradient(90deg, rgba(255,246,246,0.918732458803834) 0%, rgba(113,141,189,0.9327380610447304) 0%, rgba(81,163,203,1) 89%); */
 
 
-background: rgb(113,141,189);
-background: linear-gradient(90deg, rgba(113,141,189,0.9327380610447304) 0%, rgba(0,150,241,0.918732458803834) 48%, rgba(81,163,203,1) 89%);
+/* background: rgb(113,141,189);
+background: linear-gradient(90deg, rgba(113,141,189,0.9327380610447304) 0%, rgba(0,150,241,0.918732458803834) 48%, rgba(81,163,203,1) 89%); */
 
 
 
@@ -153,7 +153,7 @@ nav ul li a:hover::after{
 
 .header-button{
     display: inline-flex;
-
+    align-items: center;
     margin-top: 40px;
 }
 
@@ -567,6 +567,10 @@ iframe{
 #450763
 #07c7ec */
 
+nav .fas{
+    display: none;
+}
+
 @media only screen and (max-width: 600px){
     /* #header{
         background-image: url(images/phone-background.png);
@@ -632,6 +636,8 @@ iframe{
         cursor: pointer;
     }
 
+    
+
     .sub-title{
         font-size: 40px;
     }
@@ -677,6 +683,7 @@ iframe{
     .header-button{
         display: flex;
         flex-wrap: wrap;
+        text-align:justify;
         margin-top: 3vh;
         margin-right: 2vh;
     }
@@ -689,7 +696,6 @@ iframe{
         border-radius: 6px;
         text-decoration: none;
         /* text-align: center; */
-        position: r;
         color: #fff;
         transition: background 0.5s;
     }
